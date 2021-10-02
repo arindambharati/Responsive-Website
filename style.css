@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.background{
+    background: rgba(0, 0, 0, 0.7)url('./Images/backgorund.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
 .logo img{
     width: 60px;
     height: 60px;
@@ -10,7 +16,6 @@
     border-radius: 50%;
     margin: 6px 20px ;
 }
-
 
 .navbar{
     display: flex;
@@ -40,12 +45,6 @@
 
 .right-nav{
     padding: 0px 20px;
-}
-
-.background{
-    background: rgba(0, 0, 0, 0.7)url('./Images/backgorund.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
 }
 
 #search{
