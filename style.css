@@ -3,8 +3,11 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .background{
-    background: rgba(0, 0, 0, 0.7)url('./Images/backgorund.jpg');
+    background: rgba(0, 0, 0,0.6) url('./Images/background1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -21,6 +24,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .left-nav{
@@ -30,7 +35,7 @@
 
 .left-nav li{
     list-style: none;
-    padding: 0px 20px;
+    padding: 0px 10px;
     margin: 20px 20px;
 }
 
@@ -54,9 +59,68 @@
 
 .btn{
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 .btn-sm{
     margin: 0 10px;
     border-radius: 6px;
+}
+
+.img_modify{
+    width: 200px;
+    height: 200px;
+    border: 2px solid cornsilk;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.first-section{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 60%;
+    max-width: 1100px;
+    padding: 200px 0;
+    margin: 0 auto;
+}
+
+.left_half{
+    width: 80%;
+    color: white;
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right_half{
+    width: 30%;
+    text-align: right;
+}
+
+.text-big{
+    font-size: 21px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.text-small{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    padding: 8px 0;
+}
+
+.buttons button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    background: none;
+    color: white;
+    cursor: pointer;
 }
