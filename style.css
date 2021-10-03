@@ -6,12 +6,19 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 .background{
-    background: rgba(0, 0, 0,0.6) url('./Images/background1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
 
+.background_firstsec{
+    background: rgba(0, 0, 0,0.6) url('./Images/background1.jpg');
+}
+
+.background_secondSec{
+    background: url('./Images/background1.jpg');
+}
 .logo img{
     width: 60px;
     height: 60px;
