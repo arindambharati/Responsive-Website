@@ -150,7 +150,7 @@ body{
 
 .form{
     background-color: rgba(240, 237, 231, 0.87);
-    height: 34vh;
+    height: 70vh;
     padding: 20px 0;
 }
 
@@ -165,11 +165,24 @@ body{
     margin: 12px auto;
 }
 
-.form__inputs input{
+.form_inputs_fields{
     width: 100%;
     font-size: 19px;
     border: 2px solid black;
     border-radius: 5px;
     padding: .2rem .4rem;
     margin: 12px 0;
+}
+
+.submit_btn{
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(78, 75, 75, 0.185);
+    font-size: 16px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
 }
